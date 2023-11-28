@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffff0c;
+ 
+}
+.logo{
+  margin-left: 20px;
+}
+.containerinfo{
+  display: flex;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.containerMain {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #ffffff, #fdfcfd, #fbf9fa, #f9f6f7, #f8f3f3);
+}
+.container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.slider {
+  width: 40%;
+  height: 350px;
+  background-color: white;
+}
+.log {
+  width: 40%;
+  height: 300px;
+  background-color: white;
+}
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+.mySwiper img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 80%;
+}
+.containerLogin {
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  border: solid gray 0.3px;
+  gap: 5px;
+}
+.imgUser {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 0, 0.842);
+  border-radius: 10px;
+}
+.imgUser img {
+  width: 30%;
+  height: auto;
+}
+.form {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(7, 7, 7, 0.514);
+  font-size: 20px;
+  font-weight: bolder;
+}
+.form input {
+  width: 60%;
+  height: 25px;
+  border-radius: 5px;
+}
+.form button {
+  width: 60%;
+  height: 40px;
+  background-color: rgba(255, 255, 0, 0.842);
+  border-radius: 10px;
+  font-size: 15px;
+}
+.accounts {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 17px;
+}
+.accounts button {
+  width: 50%;
+  height: 20px;
+  background-color: yellow;
+}
+.containerUser {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  width: 100%;
+  height: 20vh;
+  background-color: #010003;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer section{
+  border: solid white 0.7px;
+}
+
