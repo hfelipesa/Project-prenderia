@@ -1,20 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
 }
 .nav {
   width: 100%;
-  height: 60px;
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffff0c;
- 
 }
-.logo{
+.logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
   margin-left: 20px;
 }
-.containerinfo{
+.containerinfo {
   display: flex;
   gap: 10px;
   margin-right: 20px;
@@ -22,7 +26,14 @@
 
 .containerMain {
   width: 100%;
-  background-image: linear-gradient(to bottom, #ffffff, #fdfcfd, #fbf9fa, #f9f6f7, #f8f3f3);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #fdfcfd,
+    #fbf9fa,
+    #f9f6f7,
+    #f8f3f3
+  );
 }
 .container {
   width: 100%;
@@ -34,11 +45,11 @@
 .slider {
   width: 40%;
   height: 350px;
-  background-color: white;
+  object-fit: cover;
 }
 .log {
-  width: 40%;
-  height: 300px;
+  width: 30%;
+  height: 350px;
   background-color: white;
 }
 .mySwiper {
@@ -50,11 +61,11 @@
 .mySwiper img {
   width: 100%;
   object-fit: cover;
-  opacity: 80%;
+  opacity: 90%;
 }
 .containerLogin {
-  width: 30%;
-  height: 70vh;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,35 +109,34 @@
   border-radius: 10px;
   font-size: 15px;
 }
-.accounts {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 17px;
-}
-.accounts button {
-  width: 50%;
-  height: 20px;
-  background-color: yellow;
-}
 .containerUser {
   width: 100%;
-  height: 700px;
+  height: 100%;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer{
+.footer {
   width: 100%;
-  height: 20vh;
+  height: 30vh;
   background-color: #010003;
   color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.footer section{
-  border: solid white 0.7px;
+.footer section {
+  width: 35%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
 }
-
+.logoTeam {
+  display: flex;
+  width: 130px;
+  height: 100%;
+}

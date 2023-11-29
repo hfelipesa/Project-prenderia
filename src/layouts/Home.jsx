@@ -1,20 +1,20 @@
-import { Link } from "react-router-dom";
 import Nav from "./Nav";
 import Slider from "./Slider";
 import Footer from "./Footer";
+import Login from "./Login";
 
 function Home() {
   return (
     <section className="containerMain">
       <div>
-        <Nav />
+        <Nav/>
       </div>
       <main className="container">
         <section className="slider">
          <Slider/>
         </section>
         <section className="log">
-          <Link to="./Login">Click para administrar</Link>
+          <Login/>
         </section>
       </main>
       <footer >

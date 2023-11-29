@@ -1,12 +1,13 @@
+import { Link } from "react-router-dom";
 function Nav() {
   return (
     <nav className="nav">
       <section className="logo">
-        <img src="src/assets/img/logo.png" alt="" />
+        <img src="src/assets/img/logoProject.png" alt="" />
       </section>
       <div className="containerinfo">
-        <a href="">NOSOTROS</a>
-        <a href="">CONTACTO</a>
+        <Link to="./Nosotros">NOSOTROS</Link>
+        <Link to="./Contacto">CONTACTO</Link>
       </div>
     </nav>
   );

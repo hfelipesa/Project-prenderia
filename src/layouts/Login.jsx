@@ -16,10 +16,6 @@ function Login() {
             <input type="password" name="" id="password" />
             <button type="button">Ingresar</button>
           </form>
-          <section className="accounts">
-            <button>Recuperar</button>
-            <button>Crear nuevo user</button>
-          </section>
         </section>
       </section>
     </>

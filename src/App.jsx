@@ -1,22 +1,24 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./layouts/Home";
-import Login from "./layouts/Login";
+import Contacto from "./layouts/Contacto";
+import Nosotros from "./layouts/Nosotros";
 import Nav from "./layouts/Nav";
+Nav
 
 function App() {
   const routes = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
+      element: <Home/>,
     },
     {
-      path: "/Login",
-      element: <Login />,
+      path: "/Contacto",
+      element: <Contacto/>,
     },
     {
-      path: "/Nav",
-      element: <Nav />,
-    },
+      path: "/Nosotros",
+      element: <Nosotros/>,
+    }
   ]);
   return (
     <>
